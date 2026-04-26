@@ -2,7 +2,7 @@ name: 🤍🩵 Zamalek Ticket Watcher
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   
+    - cron: "* * * * *"   
   workflow_dispatch:         
 jobs:
   watch:
